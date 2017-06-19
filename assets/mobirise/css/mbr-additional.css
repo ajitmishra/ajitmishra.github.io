@@ -1,59 +1,69 @@
-#msg-box4-20 .mbr-header__text {
-  color: #ffffff;
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+#header1-2y H1 {
+  font-size: 46px;
 }
-#msg-box4-20 .mbr-header__subtext {
-  color: #ffffff;
-}
-#msg-box4-20 .mbr-article {
-  color: #ffffff;
+#header1-2y P {
+  font-size: 20px;
 }
 #dropdown-menu-0 .hide-buttons [data-button] {
   display: none !important;
 }
 #dropdown-menu-0 .navbar-brand a {
-  font-size: 24px;
+  font-size: 32px;
 }
 #dropdown-menu-0 .nav .link,
 #dropdown-menu-0 .dropdown-item {
   font-size: 1em;
   color: #ffffff;
+  font-family: 'Oswald', sans-serif;
 }
 #dropdown-menu-0 .navbar,
 #dropdown-menu-0 .dropdown-menu {
-  background: #3d8eb9;
+  background: #27aae0;
 }
 #dropdown-menu-0 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
 #dropdown-menu-0 .dropdown-menu a:hover,
 #dropdown-menu-0 .dropdown-menu a:focus {
-  background: #3882aa;
+  background: #1e9fd4;
 }
 #dropdown-menu-0 .navbar-toggler {
   color: #ffffff;
 }
 #features1-7 P {
   text-align: center;
-  color: #ffffff;
+  color: #4c6972;
 }
 #features1-7 .mbr-section__col .mbr-header__text {
-  color: #ffffff;
+  color: #3d8eb9;
 }
 #features1-7 .mbr-section-title .mbr-header__text {
-  color: #ffffff;
+  color: #553982;
 }
 #testimonials1-2 .mbr-reviews__author-bio {
   color: #ffffff;
 }
 #testimonials1-2 .mbr-reviews__author-name {
-  color: #ffffff;
+  color: #2969b0;
 }
 #testimonials1-2 .mbr-section__header {
-  color: #ffffff;
+  color: #553982;
 }
 #testimonials1-2 .mbr-reviews__text {
-  color: #3d8eb9;
+  color: #4c6972;
+}
+#msg-box3-2s .mbr-header .mbr-header__text {
+  text-align: center;
+}
+#msg-box3-2s .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#social-buttons2-5 .mbr-header__text {
+  color: #ffffff;
 }
 #contacts3-3 STRONG {
   color: #ffffff;
+  font-size: 24px;
 }
 #contacts3-3 P {
   color: #ffffff;
@@ -64,8 +74,12 @@
 #footer1-4 P {
   color: #ffffff;
 }
-#msg-box4-21 .mbr-header__text {
+#social-buttons1-6 .mbr-header__text {
   color: #ffffff;
+}
+
+#msg-box4-21 .mbr-header__text {
+  color: #28324e;
 }
 #msg-box4-21 .mbr-header__subtext {
   color: #ffffff;
@@ -73,31 +87,24 @@
 #msg-box4-21 .mbr-article {
   color: #ffffff;
 }
-#dropdown-menu-23 .hide-buttons [data-button] {
-  display: none !important;
+#msg-box4-21 .mbr-article B {
+  color: #28324e;
 }
-#dropdown-menu-23 .navbar-brand a {
-  font-size: 24px;
+#msg-box4-21 .mbr-article DIV {
+  color: #28324e;
 }
-#dropdown-menu-23 .nav .link,
-#dropdown-menu-23 .dropdown-item {
-  font-size: 1em;
-  color: #ffffff;
+#content1-2p P {
+  color: #28324e;
 }
-#dropdown-menu-23 .navbar,
-#dropdown-menu-23 .dropdown-menu {
-  background: #3d8eb9;
+#content1-2p DIV {
+  color: #28324e;
 }
-#dropdown-menu-23 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
-#dropdown-menu-23 .dropdown-menu a:hover,
-#dropdown-menu-23 .dropdown-menu a:focus {
-  background: #3882aa;
-}
-#dropdown-menu-23 .navbar-toggler {
+#social-buttons2-22 .mbr-header__text {
   color: #ffffff;
 }
 #contacts3-26 STRONG {
   color: #ffffff;
+  font-size: 24px;
 }
 #contacts3-26 P {
   color: #ffffff;
@@ -108,40 +115,40 @@
 #footer1-27 P {
   color: #ffffff;
 }
-#msg-box4-29 .mbr-header__text {
+#social-buttons1-28 .mbr-header__text {
   color: #ffffff;
 }
-#msg-box4-29 .mbr-header__subtext {
-  color: #ffffff;
-}
-#msg-box4-29 .mbr-article {
-  color: #ffffff;
-}
-#dropdown-menu-2b .hide-buttons [data-button] {
+#dropdown-menu-2j .hide-buttons [data-button] {
   display: none !important;
 }
-#dropdown-menu-2b .navbar-brand a {
-  font-size: 24px;
+#dropdown-menu-2j .navbar-brand a {
+  font-size: 32px;
 }
-#dropdown-menu-2b .nav .link,
-#dropdown-menu-2b .dropdown-item {
+#dropdown-menu-2j .nav .link,
+#dropdown-menu-2j .dropdown-item {
   font-size: 1em;
   color: #ffffff;
+  font-family: 'Oswald', sans-serif;
 }
-#dropdown-menu-2b .navbar,
-#dropdown-menu-2b .dropdown-menu {
+#dropdown-menu-2j .navbar,
+#dropdown-menu-2j .dropdown-menu {
   background: #3d8eb9;
 }
-#dropdown-menu-2b .dropdown-menu .dropdown-toggle[aria-expanded="true"],
-#dropdown-menu-2b .dropdown-menu a:hover,
-#dropdown-menu-2b .dropdown-menu a:focus {
+#dropdown-menu-2j .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-2j .dropdown-menu a:hover,
+#dropdown-menu-2j .dropdown-menu a:focus {
   background: #3882aa;
 }
-#dropdown-menu-2b .navbar-toggler {
+#dropdown-menu-2j .navbar-toggler {
+  color: #ffffff;
+}
+
+#social-buttons2-2a .mbr-header__text {
   color: #ffffff;
 }
 #contacts3-2e STRONG {
   color: #ffffff;
+  font-size: 24px;
 }
 #contacts3-2e P {
   color: #ffffff;
@@ -152,28 +159,54 @@
 #footer1-2f P {
   color: #ffffff;
 }
-#msg-box4-2h .mbr-header__text {
+#social-buttons1-2g .mbr-header__text {
   color: #ffffff;
-}
-#msg-box4-2h .mbr-header__subtext {
-  color: #ffffff;
-}
-#msg-box4-2h .mbr-article {
-  color: #ffffff;
-}
-#content1-2r H2 {
-  color: #3d8eb9;
 }
 #dropdown-menu-2j .hide-buttons [data-button] {
   display: none !important;
 }
 #dropdown-menu-2j .navbar-brand a {
-  font-size: 24px;
+  font-size: 32px;
 }
 #dropdown-menu-2j .nav .link,
 #dropdown-menu-2j .dropdown-item {
   font-size: 1em;
   color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+}
+#dropdown-menu-2j .navbar,
+#dropdown-menu-2j .dropdown-menu {
+  background: #3d8eb9;
+}
+#dropdown-menu-2j .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-2j .dropdown-menu a:hover,
+#dropdown-menu-2j .dropdown-menu a:focus {
+  background: #3882aa;
+}
+#dropdown-menu-2j .navbar-toggler {
+  color: #ffffff;
+}
+
+#content1-2r H2 {
+  color: #475577;
+}
+#content1-2r DIV {
+  color: #252525;
+}
+#social-buttons2-2i .mbr-header__text {
+  color: #ffffff;
+}
+#dropdown-menu-2j .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-2j .navbar-brand a {
+  font-size: 32px;
+}
+#dropdown-menu-2j .nav .link,
+#dropdown-menu-2j .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
 }
 #dropdown-menu-2j .navbar,
 #dropdown-menu-2j .dropdown-menu {
@@ -189,6 +222,7 @@
 }
 #contacts3-2m STRONG {
   color: #ffffff;
+  font-size: 24px;
 }
 #contacts3-2m P {
   color: #ffffff;
@@ -197,5 +231,8 @@
   color: #ffffff;
 }
 #footer1-2n P {
+  color: #ffffff;
+}
+#social-buttons1-2o .mbr-header__text {
   color: #ffffff;
 }

@@ -8,11 +8,11 @@
       "styling": {}
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 100,
+    "uniqCompNum": 111,
     "versionPublish": "3.11.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-js-logo-128x128-1.png",
     "noImageResize": "",
-    "google-analytics": "",
+    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-48357795-4', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
   },
@@ -24,98 +24,47 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 1
       },
       "components": [
         {
-          "_inherit": "msg-box5",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_tags": [
             "Theme"
           ],
+          "_name": "header1",
           "_styles": {
-            ".mbr-header__text": {
-              "color": "#ffffff"
+            "H1": {
+              "font-size": "46px"
             },
-            ".mbr-header__subtext": {
-              "color": "#ffffff"
-            },
-            ".mbr-article": {
-              "color": "#ffffff"
+            "P": {
+              "font-size": "20px"
             }
           },
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-20",
+          "_anchor": "header1-2y",
           "_params": {
-            "imageSize": "60",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
-            "bgColorRadio": true,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.4",
             "overlayColor": "#222",
-            "inverse": false,
             "showTitle": true,
-            "showMeta": false,
             "showText": true,
-            "showButtons": true
+            "showButtons": true,
+            "showArrow": true
           },
-          "media": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "headerAlign": "left",
-          "title": "JOIN STUDY<div>Your Online Classroom</div>",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "Join Study is the pioneer and special of its kind Online Tuition Classes which provide online tuition classes for the students of different parts of the world with an online educational community and social integration platform.&nbsp;",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"joinstudy\" data-toolbar=\"-mbrBtnMove\">SCROLL DOWN TO KNOW MORE</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons2",
-          "_anchor": "social-buttons2-5",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
-          },
-          "text": "FOLLOW US",
-          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" href=\"https://twitter.com/JoinStudy\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" href=\"https://www.facebook.com/joinstudypage\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" href=\"https://plus.google.com/u/0/+JoinstudyIn/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" href=\"http://www.youtube.com/user/megaonlinetutor\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-pinterest\" title=\"Pinterest\" href=\"https://www.pinterest.com/ajitmishra/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-github\" title=\"GitHub\" href=\"https://github.com/ajitmishra\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-github\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-tumblr\" title=\"Tumblr\" href=\"http://ajitmishra.tumblr.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-linkedin\" title=\"LinkedIn\" href=\"https://www.linkedin.com/in/ajitmishra71\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-linkedin\"></i></a> "
+          "title": "JOIN STUDY<br>Your Online Classroom",
+          "text": "Join Study is the pioneer and special of its kind Online Tuition Classe",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://joinstudy.moodlecloud.com\" data-toolbar=\"-mbrBtnMove\">CLASSROOM</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"http://joinstudy.in/career\" data-toolbar=\"-mbrBtnMove\">CAREER</a>"
         },
         {
           "_styles": {
@@ -123,17 +72,19 @@
               "display": "none !important"
             },
             ".navbar-brand a": {
-              "font-size": "24px"
+              "font-size": "32px"
             },
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-family": "'Oswald', sans-serif"
             },
             ".navbar, .dropdown-menu": {
-              "background": "#3d8eb9"
+              "background": "#27aae0"
             },
             ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#3882aa"
+              "background": "#1e9fd4"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -145,15 +96,19 @@
           "_name": "dropdown-menu",
           "_anchor": "dropdown-menu-0",
           "_params": {
-            "bgColor": "#3d8eb9",
+            "bgColor": "#27aae0",
             "fontSize": "1",
-            "fontName": {},
+            "fontName": {
+              "name": "Oswald",
+              "url": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "css": "'Oswald', sans-serif"
+            },
             "fontColor": "#ffffff",
             "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -162,13 +117,13 @@
               "class": "",
               "height": 128,
               "alt": "Mobirise",
-              "link": "joinstudy",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             }
           },
-          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"joinstudy\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JOIN STUDY</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\">ABOUT US</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/courses\" aria-expanded=\"true\">COURSES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/services\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/blog\">BLOG</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"#\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"privacy.html\">Privacy Policy</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default-outline btn-default\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PDF BLOGS</a></li>"
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JOIN STUDY</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT </a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about-us-1.html\">ABOUT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/testimonials/\">TESTIMONIALS</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">CLASSES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/classes\">CLASSES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://joinstudy.moodlecloud.com\">CLASSROOM</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/career\">CAREER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/services/\">SERVICES</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">BLOGS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/blog/\">BLOG</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PDF BLOG</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"#\" aria-expanded=\"false\">CONTACT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact-us-2.html\">CONTACT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"privacy-policy-3.html\">PRIVACY POLICY</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default-outline btn-default\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PDF BLOGS</a></li>"
         },
         {
           "_tags": [
@@ -178,13 +133,13 @@
           "_styles": {
             "P": {
               "text-align": "center",
-              "color": "#ffffff"
+              "color": "#4c6972"
             },
             ".mbr-section__col .mbr-header__text": {
-              "color": "#ffffff"
+              "color": "#3d8eb9"
             },
             ".mbr-section-title .mbr-header__text": {
-              "color": "#ffffff"
+              "color": "#553982"
             }
           },
           "_anchor": "features1-7",
@@ -194,7 +149,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -212,7 +167,7 @@
             "showButtons": true
           },
           "headerAlign": "left",
-          "header": "OUR SERVICES",
+          "header": "CLASSES AND SERVICES",
           "subheader": "By John Smith posted July 30, 2015",
           "media1": {
             "image": {
@@ -309,7 +264,7 @@
           },
           "title4": "WEBSITES &amp; LOGOS CREATION",
           "caption4": "We also provide services for Website Creation and Maintainence in genuin price. You may also contact us for Logo Creation. For this we have a skilled team.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://joinstudy.moodlecloud.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-info\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"http://joinstudy.in/services/\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-info\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "media5": {
             "image": {
               "active": true,
@@ -378,13 +333,13 @@
               "color": "#ffffff"
             },
             ".mbr-reviews__author-name": {
-              "color": "#ffffff"
+              "color": "#2969b0"
             },
             ".mbr-section__header": {
-              "color": "#ffffff"
+              "color": "#553982"
             },
             ".mbr-reviews__text": {
-              "color": "#3d8eb9"
+              "color": "#4c6972"
             }
           },
           "testimonial": [
@@ -414,7 +369,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -424,13 +379,81 @@
           "header": "WHAT OUR FANTASTIC USERS SAY"
         },
         {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-2s",
+          "_params": {
+            "showCaption": "noCaption",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "showTitle": false,
+            "showText": false,
+            "showButton": true,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showMeta": false,
+            "darkBackground": false
+          },
+          "title": "MODERN STYLES",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"http://joinstudy.in/testimonials/\" data-toolbar=\"-mbrBtnMove\">CLICK TO SEE MORE TESTIMONIALS</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "social-buttons2-5",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" href=\"https://twitter.com/JoinStudy\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" href=\"https://www.facebook.com/joinstudypage\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" href=\"https://plus.google.com/u/0/+JoinstudyIn/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" href=\"http://www.youtube.com/user/megaonlinetutor\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-pinterest\" title=\"Pinterest\" href=\"https://www.pinterest.com/ajitmishra/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-github\" title=\"GitHub\" href=\"https://github.com/ajitmishra\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-github\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-tumblr\" title=\"Tumblr\" href=\"http://ajitmishra.tumblr.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-linkedin\" title=\"LinkedIn\" href=\"https://www.linkedin.com/in/ajitmishra71\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-linkedin\"></i></a> "
+        },
+        {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts3",
           "_styles": {
             "STRONG": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "24px"
             },
             "P": {
               "color": "#ffffff"
@@ -446,14 +469,14 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
           "text1": "<strong>ADDRESS</strong><br>JOIN STUDY, &nbsp;<br>Barari, Bhagalpur, <br>Bihar, India. <br>Pin- 812003<br><br>\n<strong>CONTACTS</strong><br>\nEmail: admin@joinstudy.in<br>\nPhone: +919525664348<br>Whatsapp: +919608924821",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-white\" href=\"https://ajitmishra.github.io/services\">Website builder</a></li><li><a href=\"https://ajitmishra.github.io/courses\" class=\"text-white\">Courses</a></li><li><a href=\"https://joinstudy.moodlecloud.com\" class=\"text-white\">Classroom</a></li><li>FAQ</li></ul>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-white\" href=\"http://joinstudy.in/services\">Website builder</a></li><li><a href=\"http://joinstudy.in/classes\" class=\"text-white\">Classes</a><a href=\"https://ajitmishra.github.io/courses\" class=\"text-white\"></a></li><li><a href=\"https://joinstudy.moodlecloud.com\" class=\"text-white\">Classroom</a></li><li>FAQ</li></ul>",
           "form": {
             "title": "MESSAGE",
             "action": "ajitmishra71@gmail.com",
@@ -501,19 +524,24 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 JOIN STUDY. &nbsp; <a href=\"contact\" class=\"text-white\">Contact Us</a> &nbsp;&nbsp;| <a class=\"mbr-footer__link text-white\" href=\"policy\">Privacy Policy</a>"
+          "text": "Copyright (c) 2017 JOIN STUDY. &nbsp; <a href=\"contact-us-2.html\" class=\"text-white\">Contact Us</a> &nbsp;&nbsp;| <a class=\"mbr-footer__link text-white\" href=\"privacy-policy-3.html\">Privacy Policy</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "social-buttons1",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "social-buttons1-6",
           "_params": {
             "paddingTop": "1",
@@ -521,7 +549,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -536,15 +564,46 @@
         }
       ]
     },
-    "page1.html": {
+    "about-us-1.html": {
       "settings": {
         "title": "About Us",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 2
       },
       "components": [
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-2z",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/header-education-1-2000x833.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "ABOUT US",
+          "text": "Join Study is the fastest growing online tuition classes in India. Success rate of our students in any examination is 100%.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://joinstudy.moodlecloud.com\" data-toolbar=\"-mbrBtnMove\">CLASSROOM</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"http://joinstudy.in/career\" data-toolbar=\"-mbrBtnMove\">CAREER</a>"
+        },
         {
           "_inherit": "msg-box5",
           "_tags": [
@@ -552,25 +611,31 @@
           ],
           "_styles": {
             ".mbr-header__text": {
-              "color": "#ffffff"
+              "color": "#28324e"
             },
             ".mbr-header__subtext": {
               "color": "#ffffff"
             },
             ".mbr-article": {
               "color": "#ffffff"
+            },
+            ".mbr-article B": {
+              "color": "#28324e"
+            },
+            ".mbr-article DIV": {
+              "color": "#28324e"
             }
           },
           "_name": "msg-box4",
           "_anchor": "msg-box4-21",
           "_params": {
-            "imageSize": "60",
-            "paddingTop": "1",
+            "imageSize": "38",
+            "paddingTop": "2",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -583,7 +648,7 @@
             "showTitle": true,
             "showMeta": false,
             "showText": true,
-            "showButtons": true
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -612,21 +677,42 @@
           "title": "FOUNDER OF <br>JOIN STUDY",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<b>Ajit Kumar Mishra (MILT)</b>&nbsp;<div><br></div><div>B.Sc.(Math Hon’s), &nbsp; &nbsp; B.C.A., </div><div> Diploma in Logistics &amp; MMT, </div><div> MBA (Logistics)<br></div><div>Associate Member of “The Chartered Institute of Logistics &amp; Transport- India”<br></div>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"joinstudy\" data-toolbar=\"-mbrBtnMove\">SCROLL DOWN TO KNOW MORE</a>"
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"joinstudy\" data-toolbar=\"-mbrBtnMove\">SCROLL DOWN TO KNOW MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#28324e"
+            },
+            "DIV": {
+              "color": "#28324e"
+            }
+          },
+          "_anchor": "content1-2p",
+          "text": "<p>Join Study is the pioneer and special of its kind Online Tuition Classes which provide online tuition classes for the students of different parts of the world with an online educational community and social integration platform. In our Join Study community we have internationally recognized and well talented Teachers who teach students very tactically and make the path of their success. Students may also join counselling session which are provided by our tutor members, senior students and our expert members. It makes a path of success for those students who want to develop their career.</p>Ajit Kumar Mishra has wide range of experiences as an Online Tutor and Logistics Professionals. He has 9+ years of Online Teaching and 15+ years of Offline Teaching experiences. He has also 17+ years experiences of working as a Logistics Professionals.  Due to this wide range of experiences he has founded this online tutoring website and providing online tuition classes for Logistics Management and Mathematics to lot of students from different parts of world. Under his proper guidelines Join Study and students of Join Study both are reaching new goals of success.<div><br></div><div>As an Online Classroom we are working easily across the country while maintaining a high level of online tutoring services. We have different online classroom which is suitable for every type of students.  Lots of our students are doing very well in Entrance Examination , Competitive Examination and all other fields where they are associated.<br><p><br></p></div>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "social-buttons2",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "social-buttons2-22",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -639,71 +725,11 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "content1",
-          "_anchor": "content1-2p",
-          "text": "<p>Join Study is the pioneer and special of its kind Online Tuition Classes which provide online tuition classes for the students of different parts of the world with an online educational community and social integration platform. In our Join Study community we have internationally recognized and well talented Teachers who teach students very tactically and make the path of their success. Students may also join counselling session which are provided by our tutor members, senior students and our expert members. It makes a path of success for those students who want to develop their career.</p>Ajit Kumar Mishra has wide range of experiences as an Online Tutor and Logistics Professionals. He has 9+ years of Online Teaching and 15+ years of Offline Teaching experiences. He has also 17+ years experiences of working as a Logistics Professionals.  Due to this wide range of experiences he has founded this online tutoring website and providing online tuition classes for Logistics Management and Mathematics to lot of students from different parts of world. Under his proper guidelines Join Study and students of Join Study both are reaching new goals of success.<div><br></div><div>As an Online Classroom we are working easily across the country while maintaining a high level of online tutoring services. We have different online classroom which is suitable for every type of students.  Lots of our students are doing very well in Entrance Examination , Competitive Examination and all other fields where they are associated.<br><p><br></p></div>"
-        },
-        {
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {
-              "font-size": "24px"
-            },
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#ffffff"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#3d8eb9"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#3882aa"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "dropdown-menu",
-          "_anchor": "dropdown-menu-23",
-          "_params": {
-            "bgColor": "#3d8eb9",
-            "fontSize": "1",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/favicon-js-logo-128x128.jpg",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "joinstudy",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"joinstudy\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JOIN STUDY</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\">ABOUT US</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/courses\" aria-expanded=\"true\">COURSES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/services\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/blog\">BLOG</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"#\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"privacy.html\">Privacy Policy</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default-outline btn-default\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PDF BLOGS</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
           "_name": "contacts3",
           "_styles": {
             "STRONG": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "24px"
             },
             "P": {
               "color": "#ffffff"
@@ -719,14 +745,14 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
           "text1": "<strong>ADDRESS</strong><br>JOIN STUDY, &nbsp;<br>Barari, Bhagalpur, <br>Bihar, India. <br>Pin- 812003<br><br>\n<strong>CONTACTS</strong><br>\nEmail: admin@joinstudy.in<br>\nPhone: +919525664348<br>Whatsapp: +919608924821",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-white\" href=\"https://ajitmishra.github.io/services\">Website builder</a></li><li><a href=\"https://ajitmishra.github.io/courses\" class=\"text-white\">Courses</a></li><li><a href=\"https://joinstudy.moodlecloud.com\" class=\"text-white\">Classroom</a></li><li>FAQ</li></ul>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-white\" href=\"http://joinstudy.in/services\">Website builder</a></li><li><a href=\"http://joinstudy.in/classes\" class=\"text-white\">Classes</a><a href=\"https://ajitmishra.github.io/courses\" class=\"text-white\"></a></li><li><a href=\"https://joinstudy.moodlecloud.com\" class=\"text-white\">Classroom</a></li><li>FAQ</li></ul>",
           "form": {
             "title": "MESSAGE",
             "action": "ajitmishra71@gmail.com",
@@ -774,19 +800,24 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 JOIN STUDY. &nbsp; <a href=\"contact\" class=\"text-white\">Contact Us</a> &nbsp;&nbsp;| <a class=\"mbr-footer__link text-white\" href=\"policy\">Privacy Policy</a>"
+          "text": "Copyright (c) 2017 JOIN STUDY. &nbsp; <a href=\"contact-us-2.html\" class=\"text-white\">Contact Us</a> &nbsp;&nbsp;| <a class=\"mbr-footer__link text-white\" href=\"privacy-policy-3.html\">Privacy Policy</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "social-buttons1",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "social-buttons1-28",
           "_params": {
             "paddingTop": "1",
@@ -794,7 +825,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -806,107 +837,108 @@
             "twitter": true
           },
           "text": "SHARE THIS PAGE!"
+        },
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-size": "32px"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-family": "'Oswald', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#3d8eb9"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#3882aa"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-2j",
+          "_params": {
+            "bgColor": "#3d8eb9",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Oswald",
+              "url": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "css": "'Oswald', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/favicon-js-logo-128x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "joinstudy",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JOIN STUDY</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT </a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about-us-1.html\">ABOUT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/testimonials/\">TESTIMONIALS</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">CLASSES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/classes\">CLASSES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://joinstudy.moodlecloud.com\">CLASSROOM</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/career\">CAREER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/services/\">SERVICES</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">BLOGS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/blog/\">BLOG</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PDF BLOG</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"#\" aria-expanded=\"false\">CONTACT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact-us-2.html\">CONTACT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"privacy-policy-3.html\">PRIVACY POLICY</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default-outline btn-default\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PDF BLOGS</a></li>"
         }
       ]
     },
-    "page2.html": {
+    "contact-us-2.html": {
       "settings": {
         "title": "Contact Us",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 3
       },
       "components": [
         {
-          "_inherit": "msg-box5",
+          "_inherit": "header1",
           "_tags": [
             "Theme"
           ],
-          "_styles": {
-            ".mbr-header__text": {
-              "color": "#ffffff"
-            },
-            ".mbr-header__subtext": {
-              "color": "#ffffff"
-            },
-            ".mbr-article": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-29",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_anchor": "header4-32",
           "_params": {
-            "imageSize": "60",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
-            "bgColorRadio": true,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/contact-us-header-1-join-study-2000x746.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.5",
             "overlayColor": "#222",
-            "inverse": false,
             "showTitle": true,
-            "showMeta": false,
             "showText": true,
-            "showButtons": true
+            "showButtons": true,
+            "showArrow": true
           },
-          "media": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
-              "link": "contact.html",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "headerAlign": "left",
-          "title": "Contact With<br>Join Study",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "We will happy if you make contact with us. feel free to make contact with any of the given mean of this page.",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"joinstudy\" data-toolbar=\"-mbrBtnMove\">SCROLL DOWN TO KNOW MORE</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons2",
-          "_anchor": "social-buttons2-2a",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
-          },
-          "text": "FOLLOW US",
-          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" href=\"https://twitter.com/JoinStudy\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" href=\"https://www.facebook.com/joinstudypage\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" href=\"https://plus.google.com/u/0/+JoinstudyIn/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" href=\"http://www.youtube.com/user/megaonlinetutor\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-pinterest\" title=\"Pinterest\" href=\"https://www.pinterest.com/ajitmishra/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-github\" title=\"GitHub\" href=\"https://github.com/ajitmishra\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-github\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-tumblr\" title=\"Tumblr\" href=\"http://ajitmishra.tumblr.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-linkedin\" title=\"LinkedIn\" href=\"https://www.linkedin.com/in/ajitmishra71\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-linkedin\"></i></a> "
+          "title": "CONTACT US",
+          "text": "Feel free to make contact with us by any given mean in this page",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://joinstudy.moodlecloud.com\" data-toolbar=\"-mbrBtnMove\">CLASSROOM</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"http://joinstudy.in/career\" data-toolbar=\"-mbrBtnMove\">CAREER</a>"
         },
         {
           "_tags": [
@@ -958,57 +990,30 @@
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>"
         },
         {
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {
-              "font-size": "24px"
-            },
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#ffffff"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#3d8eb9"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#3882aa"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "dropdown-menu",
-          "_anchor": "dropdown-menu-2b",
-          "_params": {
-            "bgColor": "#3d8eb9",
-            "fontSize": "1",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/favicon-js-logo-128x128.jpg",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "joinstudy",
-              "title": "",
-              "linkInNewWindow": false
+          "_name": "social-buttons2",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
             }
           },
-          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"joinstudy\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JOIN STUDY</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\">ABOUT US</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/courses\" aria-expanded=\"true\">COURSES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/services\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/blog\">BLOG</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"#\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"privacy.html\">Privacy Policy</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default-outline btn-default\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PDF BLOGS</a></li>"
+          "_anchor": "social-buttons2-2a",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" href=\"https://twitter.com/JoinStudy\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" href=\"https://www.facebook.com/joinstudypage\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" href=\"https://plus.google.com/u/0/+JoinstudyIn/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" href=\"http://www.youtube.com/user/megaonlinetutor\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-pinterest\" title=\"Pinterest\" href=\"https://www.pinterest.com/ajitmishra/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-github\" title=\"GitHub\" href=\"https://github.com/ajitmishra\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-github\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-tumblr\" title=\"Tumblr\" href=\"http://ajitmishra.tumblr.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-linkedin\" title=\"LinkedIn\" href=\"https://www.linkedin.com/in/ajitmishra71\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-linkedin\"></i></a> "
         },
         {
           "_tags": [
@@ -1017,7 +1022,8 @@
           "_name": "contacts3",
           "_styles": {
             "STRONG": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "24px"
             },
             "P": {
               "color": "#ffffff"
@@ -1033,14 +1039,14 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
           "text1": "<strong>ADDRESS</strong><br>JOIN STUDY, &nbsp;<br>Barari, Bhagalpur, <br>Bihar, India. <br>Pin- 812003<br><br>\n<strong>CONTACTS</strong><br>\nEmail: admin@joinstudy.in<br>\nPhone: +919525664348<br>Whatsapp: +919608924821",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-white\" href=\"https://ajitmishra.github.io/services\">Website builder</a></li><li><a href=\"https://ajitmishra.github.io/courses\" class=\"text-white\">Courses</a></li><li><a href=\"https://joinstudy.moodlecloud.com\" class=\"text-white\">Classroom</a></li><li>FAQ</li></ul>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-white\" href=\"http://joinstudy.in/services\">Website builder</a></li><li><a href=\"http://joinstudy.in/classes\" class=\"text-white\">Classes</a><a href=\"https://ajitmishra.github.io/courses\" class=\"text-white\"></a></li><li><a href=\"https://joinstudy.moodlecloud.com\" class=\"text-white\">Classroom</a></li><li>FAQ</li></ul>",
           "form": {
             "title": "MESSAGE",
             "action": "ajitmishra71@gmail.com",
@@ -1088,19 +1094,24 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 JOIN STUDY. &nbsp; <a href=\"contact\" class=\"text-white\">Contact Us</a> &nbsp;&nbsp;| <a class=\"mbr-footer__link text-white\" href=\"policy\">Privacy Policy</a>"
+          "text": "Copyright (c) 2017 JOIN STUDY. &nbsp; <a href=\"contact-us-2.html\" class=\"text-white\">Contact Us</a> &nbsp;&nbsp;| <a class=\"mbr-footer__link text-white\" href=\"privacy-policy-3.html\">Privacy Policy</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "social-buttons1",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "social-buttons1-2g",
           "_params": {
             "paddingTop": "1",
@@ -1108,7 +1119,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -1120,120 +1131,6 @@
             "twitter": true
           },
           "text": "SHARE THIS PAGE!"
-        }
-      ]
-    },
-    "page3.html": {
-      "settings": {
-        "title": "Privacy Policy",
-        "meta_descr": "",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": ""
-      },
-      "components": [
-        {
-          "_inherit": "msg-box5",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".mbr-header__text": {
-              "color": "#ffffff"
-            },
-            ".mbr-header__subtext": {
-              "color": "#ffffff"
-            },
-            ".mbr-article": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-2h",
-          "_params": {
-            "imageSize": "60",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "inverse": false,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": true
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-1400x933.jpg",
-              "link": "contact.html",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "headerAlign": "left",
-          "title": "Our Privacy Policy",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "It is important that before avail our services ar to join our online classes that you have read our privacy policy. our privacy policies are listed below.&nbsp;",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"joinstudy\" data-toolbar=\"-mbrBtnMove\">SCROLL DOWN TO KNOW MORE</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons2",
-          "_anchor": "social-buttons2-2i",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
-          },
-          "text": "FOLLOW US",
-          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" href=\"https://twitter.com/JoinStudy\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" href=\"https://www.facebook.com/joinstudypage\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" href=\"https://plus.google.com/u/0/+JoinstudyIn/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" href=\"http://www.youtube.com/user/megaonlinetutor\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-pinterest\" title=\"Pinterest\" href=\"https://www.pinterest.com/ajitmishra/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-github\" title=\"GitHub\" href=\"https://github.com/ajitmishra\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-github\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-tumblr\" title=\"Tumblr\" href=\"http://ajitmishra.tumblr.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-linkedin\" title=\"LinkedIn\" href=\"https://www.linkedin.com/in/ajitmishra71\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-linkedin\"></i></a> "
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_styles": {
-            "H2": {
-              "color": "#3d8eb9"
-            }
-          },
-          "_anchor": "content1-2r",
-          "text": "<h2>Privacy Policy</h2><div>We, Join Study are committed to protecting any data that we collect concerning you. By using our services you agree to the use of the data that we collect in accordance with this Privacy Policy.</div><div><br></div><div>We are committed to protecting your privacy</div><div><br></div><div>We collect the minimum amount of information about you that is commensurate with providing you with a satisfactory service. This Policy indicates the type of processes that may result in data being collected about you. The purpose of this Privacy Policy to enable you to understand which personal identifying information (“PII”, “Personal Information”) of yours is collected, how and when we might use your information, who has access to this information, and how you can correct any inaccuracies in the information. To better protect your privacy, we provide this notice explaining our online information practices and the choices you can make about the way your information is collected and used. To make this notice easy to find, we make it available on our website.</div><div>Information Collected</div><div><br></div><div>We may collect any or all of the information that via both automated means such as communications profiles and cookies. Personal Information you give us depends on the type of service, support, or sale inquiry, and may include your name, address, telephone number, fax number and email address, dates of service provided, types of service provided, payment history, manner of payment, amount of payments, date of payments, domain name, credit card or other payment information. The financial information will be transferred only be used to bill you for the products and services you purchased. If you purchase by credit card, this information may be forwarded to your credit card provider. All sensitive information is collected on a secure server and data is transferred . When transferring personal information a security icon will appear in your browser.</div><div>Cookies</div><div><br></div><div>Your Internet browser has the in-built facility for storing small text files – “cookies” – that hold information which allows a website to recognize your account. We use cookies to save your preferences and login information, and provide personalized functionality. You can reject cookies by changing your browser settings, but be aware that this will disable some of the functionality on the Join Study website. More information about cookies can be found at http://en.wikipedia.org/wiki/HTTP_cookie.</div><div>Disclosing Information</div><div><br></div><div>We do not disclose any personal information obtained about you from this website to third parties. We may use the information to keep in contact with you and inform you of developments associated with our business. You will be given the opportunity to opt out from any mailing list or similar device. However, we may disclose aggregate, anonymous data based on information collected from users to potential partners, our affiliates, and reputable third parties. We take all available measures to select affiliates and service providers that are ethical and provide similar privacy protection to their customers and the community. We do not make any representations about the practices and policies about these companies.</div><div>Changes to this Policy</div><div><br></div><div>Any changes to our Privacy Policy will be placed here and will supersede this version of our Policy. We will take reasonable steps to draw your attention to any changes in our Policy. However, to be on the safe side, we suggest that you read this document each time you use the website to ensure that it still meets with your approval.</div>"
         },
         {
           "_styles": {
@@ -1241,11 +1138,13 @@
               "display": "none !important"
             },
             ".navbar-brand a": {
-              "font-size": "24px"
+              "font-size": "32px"
             },
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-family": "'Oswald', sans-serif"
             },
             ".navbar, .dropdown-menu": {
               "background": "#3d8eb9"
@@ -1265,13 +1164,17 @@
           "_params": {
             "bgColor": "#3d8eb9",
             "fontSize": "1",
-            "fontName": {},
+            "fontName": {
+              "name": "Oswald",
+              "url": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "css": "'Oswald', sans-serif"
+            },
             "fontColor": "#ffffff",
             "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -1285,8 +1188,151 @@
               "linkInNewWindow": false
             }
           },
-          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"joinstudy\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JOIN STUDY</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\">ABOUT US</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/courses\" aria-expanded=\"true\">COURSES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/services\">SERVICES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://ajitmishra.github.io/blog\">BLOG</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"#\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact.html\">Contact us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"privacy.html\">Privacy Policy</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default-outline btn-default\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PDF BLOGS</a></li>"
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JOIN STUDY</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT </a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about-us-1.html\">ABOUT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/testimonials/\">TESTIMONIALS</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">CLASSES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/classes\">CLASSES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://joinstudy.moodlecloud.com\">CLASSROOM</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/career\">CAREER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/services/\">SERVICES</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">BLOGS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/blog/\">BLOG</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PDF BLOG</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"#\" aria-expanded=\"false\">CONTACT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact-us-2.html\">CONTACT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"privacy-policy-3.html\">PRIVACY POLICY</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default-outline btn-default\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PDF BLOGS</a></li>"
+        }
+      ]
+    },
+    "privacy-policy-3.html": {
+      "settings": {
+        "title": "Privacy Policy",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 4
+      },
+      "components": [
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-30",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-1400x933.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "PRIVACY POLICY",
+          "text": "Before join our classes it important to read our privacy policy",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://joinstudy.moodlecloud.com/\" data-toolbar=\"-mbrBtnMove\">CLASSROOM</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"http://joinstudy.in/career/\" data-toolbar=\"-mbrBtnMove\">CAREER</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "H2": {
+              "color": "#475577"
+            },
+            "DIV": {
+              "color": "#252525"
+            }
+          },
+          "_anchor": "content1-2r",
+          "text": "<h2>Privacy Policy</h2><div>We, Join Study are committed to protecting any data that we collect concerning you. By using our services you agree to the use of the data that we collect in accordance with this Privacy Policy.</div><div><br></div><div>We are committed to protecting your privacy</div><div><br></div><div>We collect the minimum amount of information about you that is commensurate with providing you with a satisfactory service. This Policy indicates the type of processes that may result in data being collected about you. The purpose of this Privacy Policy to enable you to understand which personal identifying information (“PII”, “Personal Information”) of yours is collected, how and when we might use your information, who has access to this information, and how you can correct any inaccuracies in the information. To better protect your privacy, we provide this notice explaining our online information practices and the choices you can make about the way your information is collected and used. To make this notice easy to find, we make it available on our website.</div><div>Information Collected</div><div><br></div><div>We may collect any or all of the information that via both automated means such as communications profiles and cookies. Personal Information you give us depends on the type of service, support, or sale inquiry, and may include your name, address, telephone number, fax number and email address, dates of service provided, types of service provided, payment history, manner of payment, amount of payments, date of payments, domain name, credit card or other payment information. The financial information will be transferred only be used to bill you for the products and services you purchased. If you purchase by credit card, this information may be forwarded to your credit card provider. All sensitive information is collected on a secure server and data is transferred . When transferring personal information a security icon will appear in your browser.</div><div>Cookies</div><div><br></div><div>Your Internet browser has the in-built facility for storing small text files – “cookies” – that hold information which allows a website to recognize your account. We use cookies to save your preferences and login information, and provide personalized functionality. You can reject cookies by changing your browser settings, but be aware that this will disable some of the functionality on the Join Study website. More information about cookies can be found at http://en.wikipedia.org/wiki/HTTP_cookie.</div><div>Disclosing Information</div><div><br></div><div>We do not disclose any personal information obtained about you from this website to third parties. We may use the information to keep in contact with you and inform you of developments associated with our business. You will be given the opportunity to opt out from any mailing list or similar device. However, we may disclose aggregate, anonymous data based on information collected from users to potential partners, our affiliates, and reputable third parties. We take all available measures to select affiliates and service providers that are ethical and provide similar privacy protection to their customers and the community. We do not make any representations about the practices and policies about these companies.</div><div>Changes to this Policy</div><div><br></div><div>Any changes to our Privacy Policy will be placed here and will supersede this version of our Policy. We will take reasonable steps to draw your attention to any changes in our Policy. However, to be on the safe side, we suggest that you read this document each time you use the website to ensure that it still meets with your approval.</div>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "social-buttons2-2i",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" href=\"https://twitter.com/JoinStudy\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" href=\"https://www.facebook.com/joinstudypage\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" href=\"https://plus.google.com/u/0/+JoinstudyIn/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" href=\"http://www.youtube.com/user/megaonlinetutor\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-pinterest\" title=\"Pinterest\" href=\"https://www.pinterest.com/ajitmishra/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-github\" title=\"GitHub\" href=\"https://github.com/ajitmishra\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-github\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-tumblr\" title=\"Tumblr\" href=\"http://ajitmishra.tumblr.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-linkedin\" title=\"LinkedIn\" href=\"https://www.linkedin.com/in/ajitmishra71\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-linkedin\"></i></a> "
+        },
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-size": "32px"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-family": "'Oswald', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#3d8eb9"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#3882aa"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-2j",
+          "_params": {
+            "bgColor": "#3d8eb9",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Oswald",
+              "url": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "css": "'Oswald', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/favicon-js-logo-128x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "joinstudy",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JOIN STUDY</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">ABOUT </a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"about-us-1.html\">ABOUT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/testimonials/\">TESTIMONIALS</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">CLASSES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/classes\">CLASSES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://joinstudy.moodlecloud.com\">CLASSROOM</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/career\">CAREER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/services/\">SERVICES</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">BLOGS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://joinstudy.in/blog/\">BLOG</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PDF BLOG</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"#\" aria-expanded=\"false\">CONTACT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"contact-us-2.html\">CONTACT US</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"privacy-policy-3.html\">PRIVACY POLICY</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default-outline btn-default\" href=\"https://drive.google.com/open?id=0B_5vZLWJFHp8NEdMMHhOSk9aejg\">PDF BLOGS</a></li>"
         },
         {
           "_tags": [
@@ -1295,7 +1341,8 @@
           "_name": "contacts3",
           "_styles": {
             "STRONG": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "24px"
             },
             "P": {
               "color": "#ffffff"
@@ -1311,14 +1358,14 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
           "text1": "<strong>ADDRESS</strong><br>JOIN STUDY, &nbsp;<br>Barari, Bhagalpur, <br>Bihar, India. <br>Pin- 812003<br><br>\n<strong>CONTACTS</strong><br>\nEmail: admin@joinstudy.in<br>\nPhone: +919525664348<br>Whatsapp: +919608924821",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-white\" href=\"https://ajitmishra.github.io/services\">Website builder</a></li><li><a href=\"https://ajitmishra.github.io/courses\" class=\"text-white\">Courses</a></li><li><a href=\"https://joinstudy.moodlecloud.com\" class=\"text-white\">Classroom</a></li><li>FAQ</li></ul>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-white\" href=\"http://joinstudy.in/services\">Website builder</a></li><li><a href=\"http://joinstudy.in/classes\" class=\"text-white\">Classes</a><a href=\"https://ajitmishra.github.io/courses\" class=\"text-white\"></a></li><li><a href=\"https://joinstudy.moodlecloud.com\" class=\"text-white\">Classroom</a></li><li>FAQ</li></ul>",
           "form": {
             "title": "MESSAGE",
             "action": "ajitmishra71@gmail.com",
@@ -1366,19 +1413,24 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 JOIN STUDY. &nbsp; <a href=\"contact\" class=\"text-white\">Contact Us</a> &nbsp;&nbsp;| <a class=\"mbr-footer__link text-white\" href=\"policy\">Privacy Policy</a>"
+          "text": "Copyright (c) 2017 JOIN STUDY. &nbsp; <a href=\"contact-us-2.html\" class=\"text-white\">Contact Us</a> &nbsp;&nbsp;| <a class=\"mbr-footer__link text-white\" href=\"privacy-policy-3.html\">Privacy Policy</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "social-buttons1",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "social-buttons1-2o",
           "_params": {
             "paddingTop": "1",
@@ -1386,7 +1438,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#1abc9c",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
