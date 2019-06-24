@@ -22,7 +22,7 @@
     "сanonical-url": "",
     "screenshot": "screenshot.png",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
-    "gdpr": "By continiung you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
+    "gdpr": ""
   },
   "pages": {
     "index.html": {
@@ -57,7 +57,7 @@
               "display": "none !important"
             },
             ".navbar-brand a": {
-              "font-size": "30px"
+              "font-size": "25px"
             },
             ".nav .link, .dropdown-item": {
               "font-size": "1.4em",
@@ -85,7 +85,7 @@
               "linkInNewWindow": true
             }
           },
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://ajitmishra.github.io\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\">The Logistics Educator</a>",
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://ajitmishra.github.io\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\">The Logistics Educator</a>",
           "_name": "dropdown-menu-2btn",
           "_anchor": "dropdown-menu-2btn-7"
         },
@@ -108,11 +108,11 @@
             },
             "overlay": false,
             "overlayColor": "#ffffff",
-            "overlayOpacity": 0.5
+            "overlayOpacity": "0"
           },
           "title": "Ajit Kumar Mishra",
           "text": "A Dedicated Educator, Faculty &amp; Professional <br>of Logistics &amp; Supply Chain Management. <br>Working Globally with his Online Classroom Join Study",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://joinstudy.moodlecloud.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Classroom</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://ajitmishra.github.io/freelance-services\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Services</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://joinstudy.moodlecloud.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Classroom</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://ajitmishra.github.io/freelance-services\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Services</a>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -184,7 +184,7 @@
             "Theme"
           ],
           "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"https://joinstudy.moodlecloud.com/mod/page/view.php?id=269\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">More</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"https://joinstudy.moodlecloud.com/mod/page/view.php?id=269\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">More</a>",
           "_name": "msg-box4",
           "_anchor": "msg-box4-l"
         },
@@ -313,10 +313,10 @@
           "caption3": "As you know India is a fastest growing economy. Lots of multinational companies and businesses are trying to setup and develop their business in India. But Hindi is major connecting &amp; national language of India. It supports to understand other local language of India.",
           "title4": "Freelance Services",
           "caption4": "We provide lots of freelance services to Logistics &amp; Supply Chain Companies.  Me and my students are working as a great team of logistics &amp; supply chain freelance professionals. We provides many online services to support our clients worldwide.&nbsp;",
-          "button1": "<a data-app-btn=\"true\" href=\"https://joinstudy.moodlecloud.com/course/index.php?categoryid=6\" class=\"btn btn-warning-outline btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">More</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://joinstudy.moodlecloud.com/course/index.php?categoryid=8\" class=\"btn btn-warning-outline btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">More</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://joinstudy.moodlecloud.com/course/index.php?categoryid=5\" class=\"btn btn-warning-outline btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">More</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://ajitmishra.github.io/freelance-services\" class=\"btn btn-warning-outline btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">More</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://joinstudy.moodlecloud.com/course/index.php?categoryid=6\" class=\"btn btn-danger-outline btn-danger\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">More</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://joinstudy.moodlecloud.com/course/index.php?categoryid=8\" class=\"btn btn-danger-outline btn-danger\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">More</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://joinstudy.moodlecloud.com/course/index.php?categoryid=5\" class=\"btn btn-danger-outline btn-danger\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">More</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://ajitmishra.github.io/freelance-services\" class=\"btn btn-danger-outline btn-danger\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">More</a>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -412,7 +412,7 @@
           },
           "title": "To Know More About Student's Voice",
           "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"https://ajitmishra.github.io/testimonials\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Click Here For More About Students Voice</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"https://ajitmishra.github.io/testimonials\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Click Here For More About Students Voice</a>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -435,7 +435,7 @@
             "overlayOpacity": 0.5
           },
           "title": "Send Message",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning-outline btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-danger-outline btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send</a>",
           "form": {
             "action": "ajitmishra71@gmail.com",
             "alerts": {
