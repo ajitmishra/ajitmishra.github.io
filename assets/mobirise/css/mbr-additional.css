@@ -709,15 +709,30 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
-.cid-rU4PMPgZb5 {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-image: url("../../../assets/images/background4.jpg");
+.cid-rUNRVCWE32 {
+  background-image: url("../../../assets/images/background3.jpg");
+}
+.cid-rUNRVCWE32 h1 {
+  color: #616161;
+}
+.cid-rUNRVCWE32 h2,
+.cid-rUNRVCWE32 h3,
+.cid-rUNRVCWE32 p {
+  color: #767676;
+}
+.cid-rUNRVCWE32 .mbr-section-subtitle {
+  font-style: italic;
+}
+.cid-rUNRVCWE32 H3 {
+  color: #ffffff;
+}
+.cid-rUNRVCWE32 H1 {
+  color: #ffffff;
 }
 .cid-rznVeBQ6jR {
-  padding-top: 75px;
+  padding-top: 30px;
   padding-bottom: 15px;
-  background-color: #efefef;
+  background-color: #ffffff;
 }
 .cid-rznVeBQ6jR .mbr-section-subtitle {
   color: #767676;
